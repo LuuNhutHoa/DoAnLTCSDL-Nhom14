@@ -1,0 +1,64 @@
+﻿@model DemoDoAnLTCSDL.Models.SanPham
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Xóa các sản phẩm</h2>
+
+<h3>Bạn có muốn xóa sản phẩm này không?</h3>
+<div>
+    <h4>Danh mục sản phẩm</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Tên sản phẩm:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TenSP)
+        </dd>
+
+        <dt>
+            Đơn vị tính:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Donvitinh)
+        </dd>
+
+        <dt>
+            Đơn giá:
+        </dt>
+
+        <dd>
+            @String.Format("{0:#,###} đồng",Model.Dongia)
+        </dd>
+
+        <dt>
+            Hình sản phẩm:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.HinhSP)
+        </dd>
+
+        <dt>
+            Tên loại sản phẩm
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LoaiSP.TenLoaiSP)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Xóa" class="btn btn-default" /> |
+           @Html.ActionLink("Trở về trang chủ", "Index")
+        </div>
+    }
+</div>

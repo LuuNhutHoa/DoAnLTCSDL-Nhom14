@@ -1,0 +1,124 @@
+﻿@model PagedList.IPagedList<DemoDoAnLTCSDL.Models.SanPham>
+@using DemoDoAnLTCSDL.Models
+@using System.Linq
+@using PagedList.Mvc
+<link rel="stylesheet" href="~/Content/PagedList.css" />
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="./assets/fonts/fontawesome-free-5.15.4-web/css/all.min.css">
+
+<div class="container p-3 my-3 bg-primary text-white" style="background-color: #48D1CC ">
+    @using (Html.BeginForm())
+    {
+        <p></p>
+        <div style="display:flex;  ">
+            <image width="70" height="97" src="~/Images/Phone_Logo.png"></image>
+            <h2 style="font-size: 4.0rem; ">Phone Store</h2>
+        </div>
+        <div class="form-group form-inline " style="text-align:right">
+            Tìm sản phẩm: @Html.TextBox("SearchString", "", new { @class = "form-control" })
+            <input type="submit" class="btn btn-success" value="Tìm" placeholder="Bạn tìm gì" />
+        </div>
+    }
+    <div id="slideCont" style="clip: rect(auto, 1150px, 140px, auto); height: 140px; overflow: hidden; position: relative; top: 0px; width: 1150px; z-index: 1;">
+        <div id="slideA" style="height: 140px; left: -194px; overflow: hidden; position: absolute; top: 0px; width: 2300px; z-index: 1;">
+            <div id="innerSlideA" style="float: left;">
+                <img border="0" height="140" src="~/Images/banner ngang 1.jpg" width="570" />
+                <img border="0" height="140" src="~/Images/banner ngang 2.jpg" width="570" />
+                <img border="0" height="140" src="~/Images/banner ngang 3.jpg" width="570" />
+                <img border="0" height="140" src="~/Images/banner ngang 6.jpg" width="570" />
+            </div>
+            <div id="slideB" style="height: 140px; left: 0px; overflow: hidden; position: relative; top: 0px; width: 1150px; z-index: 1;">
+                <img border="0" height="140" src="~/Images/banner ngang 6.jpg" width="570" />
+                <img border="0" height="140" src="~/Images/banner ngang 7.jpg" width="570" />
+                <img border="0" height="140" src="~/Images/banner ngang 3.jpg" width="570" />
+            </div>
+        </div>
+    </div>
+    <div class="row" style="background-color: #48D1CC">
+        @foreach (var item in Model)
+        {
+            <div class="col-sm-3 col-lg-3 col-md-3 col-xs-3 "
+                 style="background-color: azure; margin-top: 2px; text-align: center; border: 2px solid gray; color: #343a40">
+                <h3>@Html.DisplayFor(modelItem => item.TenSP)</h3>
+                @Html.Images("../" + item.HinhSP, "", "100", "100")<br />
+                @String.Format("{0:#,###} đồng", item.Dongia)<br />
+                <a class="btn btn-info btn-sm" href="@Url.Action("Details", "Sanphams", new { id = item.MaSP })">
+                    Xem chi tiết
+                </a>
+            </div>
+        }
+    </div>
+    <div>
+        Trang @(Model.PageCount<Model.PageNumber?0:Model.PageNumber)/@Model.PageCount
+        @Html.PagedListPager(Model, page => Url.Action("Index",
+        new
+        {
+            page,
+            currentFilter = ViewBag.CurrentFilter
+        }
+        ))
+    </div>
+
+</div>
+<div class="container body-content">
+    <hr />
+    <footer class="footer-distributed">
+
+        <div class="footer-left">
+
+            <h3>Phone<span>Store</span></h3>
+
+            <p class="footer-links">
+                <a href="#" class="link-1">Home</a>
+
+                <a href="#">Blog</a>
+
+                <a href="#">Pricing</a>
+
+                <a href="#">About</a>
+
+                <a href="#">Contact</a>
+            </p>
+
+            <p class="footer-company-name">Công ty điện thoại di động Phone Store</p>
+        </div>
+
+        <div class="footer-center">
+
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p><span>371 Nguyễn Kiệm</span> Gò Vấp, Thành phố Hồ Chí Minh</p>
+            </div>
+
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>0819113117</p>
+            </div>
+
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="mailto:PhoneStore.HCM@gmail.com">PhoneStore.HCM@gmail.com</a></p>
+            </div>
+
+        </div>
+
+        <div class="footer-right">
+
+            <p class="footer-company-about">
+                <span>About the Phone Store</span>
+                Cảm ơn quý khách đã đến trang web của chúng tôi!!! Quý muốn liên hệ Phone Store thì truy cập vào các link dưới và số điện thoại để được tư vấn.
+            </p>
+
+            <div class="footer-icons">
+
+                <a href="https://www.facebook.com/profile.php?id=100008208011310"><i class="fab fa-facebook-square"></i></a>
+                <a href="https://www.youtube.com/"><i class="fab fa-youtube-square"></i></a>
+                <a href="https://localhost:44341/#"><i class="fas fa-mobile-alt"></i></a>
+                <a href="https://github.com/LuuNhutHoa"><i class="fab fa-github-square"></i></a>
+
+            </div>
+
+        </div>
+
+    </footer>
+</div>

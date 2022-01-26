@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thế giới di động</title>
+    @Styles.Render("~/Content/css")
+    @Styles.Render("~/Content/Footer.css")
+    @Scripts.Render("~/bundles/modernizr")
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-5.15.4-web/css/all.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.ActionLink("Trang chủ", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li>@Html.ActionLink("Sản phẩm", "Index", "SanPhams")</li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            Loại sản phẩm
+                            <span class="caret"></span>
+                        </a>
+                        @{Html.RenderAction("Index", "Menu"); }
+                    </li>
+                    <li>@Html.ActionLink("Khách hàng", "Index", "KhachHangs")</li>
+                    <li>@Html.ActionLink("Hóa Đơn", "Index", "HoaDons")</li>
+                </ul>
+                @Html.Partial("_LoginPartial")
+            </div>
+        </div>
+    </div>
+    @RenderBody()
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+    <style type="text/css">
+        <!--
+        #slideCont {
+            border: solid 1px #000;
+            text-align: center;
+        }
+
+            #slideCont img {
+                margin: 5px;
+            }
+        -->
+    </style>
+
+    <script type="text/javascript">
+
+        function clip() {
+            // width of the banner container
+            var contWidth = 1150;
+            // height of the banner container
+            var contHeight = 140;
+
+            var id1 = document.getElementById('slideA');
+            var id2 = document.getElementById('slideB');
+
+            id1.style.left = parseInt(id1.style.left) - 1 + 'px';
+
+            document.getElementById('slideCont').style.width = contWidth + "px";
+            document.getElementById('slideCont').style.clip = 'rect(auto,' + contWidth + 'px,' + contHeight + 'px,auto)';
+            id2.style.display = '';
+            if (parseFloat(id1.style.left) == -(contWidth))
+            {
+                id1.style.left = '0px';
+            }
+            setTimeout(clip, 25)
+        }
+
+        function addLoadEvent(func) {
+            var oldonload = window.onload;
+            if (typeof window.onload != 'function') {
+                window.onload = func;
+            } else {
+                window.onload = function () {
+                    if (oldonload) {
+                        oldonload();
+                    }
+                    func();
+                }
+            }
+        }
+
+        addLoadEvent(function () {
+            clip();
+        });
+//-->
+    </script>
+</body>
+</html>

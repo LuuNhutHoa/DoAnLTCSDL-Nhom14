@@ -1,0 +1,95 @@
+﻿@model PagedList.IPagedList<DemoDoAnLTCSDL.Models.SanPham>
+@using DemoDoAnLTCSDL.Models
+@using PagedList.Mvc
+<h2>Danh mục sản phẩm</h2>
+
+<p>
+    @Html.ActionLink("Thêm mới sản phẩm", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            <center>
+                Mã sản phẩm
+            </center>
+        </th>
+        <th>
+            <center>
+                @Html.ActionLink("Tên sản phẩm", "Index", new { sortOrder = ViewBag.SortByName })
+            </center>
+        </th>
+        <th>
+            <center>
+                Đơn vị tính
+            </center>
+        </th>
+        <th>
+            <center>
+                @Html.ActionLink("Đơn giá", "Index", new { sortOrder = ViewBag.SortByPrice })
+            </center>
+        </th>
+        <th>
+            <center>
+                Hình sản phẩm
+            </center>
+        </th>
+        <th>
+            <center>
+                Tên loại sản phẩm
+            </center>
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+<tr>
+    <td>
+        <center>
+            @Html.DisplayFor(modelItem => item.MaSP)
+        </center>
+    </td>
+    <td>
+        <center>
+            @Html.DisplayFor(modelItem => item.TenSP)
+        </center>
+    </td>
+    <td>
+        <center>
+            @Html.DisplayFor(modelItem => item.Donvitinh)
+        </center>
+    </td>
+    <td>
+        <center>
+            @String.Format("{0:#,###} đồng", item.Dongia)
+        </center>
+    </td>
+    <td>
+        <center>
+            @Html.Images("../../" + item.HinhSP, "", "50", "50")
+        </center>
+    </td>
+    <td>
+        <center>
+            @Html.DisplayFor(modelItem => item.LoaiSP.TenLoaiSP)
+        </center>
+    </td>
+    <td>
+        @Html.ActionLink("Sửa", "Edit", new { id = item.MaSP }) |
+        @Html.ActionLink("Xem chi tiết", "Details", new { id = item.MaSP }) |
+        @Html.ActionLink("Xóa", "Delete", new { id = item.MaSP })
+    </td>
+</tr>
+    }
+
+</table>
+<div>
+    Trang @(Model.PageCount<Model.PageNumber?0:Model.PageNumber)/@Model.PageCount
+    @Html.PagedListPager(Model, page => Url.Action("Index",
+    new
+    {
+        page,
+        sortOrder = ViewBag.SortOrder
+    }
+    ))
+</div>

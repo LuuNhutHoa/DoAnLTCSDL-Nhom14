@@ -1,0 +1,224 @@
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\DemoDoAnLTCSDL.dll.config
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\DemoDoAnLTCSDL.dll
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\DemoDoAnLTCSDL.pdb
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\csc.exe
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\csc.exe.config
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\csc.rsp
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\csi.exe
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\csi.exe.config
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\csi.rsp
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\System.AppContext.dll
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\System.Collections.Immutable.dll
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\System.Console.dll
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\System.Globalization.Calendars.dll
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\System.IO.Compression.dll
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\System.IO.FileSystem.dll
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\System.Net.Http.dll
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\System.Net.Sockets.dll
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\System.Reflection.Metadata.dll
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\System.ValueTuple.dll
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\System.Xml.XPath.dll
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\vbc.exe
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\vbc.exe.config
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\vbc.rsp
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\VBCSCompiler.exe
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\VBCSCompiler.exe.config
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\Antlr3.Runtime.dll
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\EntityFramework.dll
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\EntityFramework.SqlServer.dll
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\Microsoft.Owin.dll
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\Microsoft.Owin.Security.dll
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\Microsoft.Owin.Security.Google.dll
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\Microsoft.Web.Infrastructure.dll
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\Newtonsoft.Json.dll
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\Owin.dll
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\System.Web.Helpers.dll
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\System.Web.Mvc.dll
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\System.Web.Optimization.dll
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\System.Web.Razor.dll
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\System.Web.WebPages.Deployment.dll
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\System.Web.WebPages.dll
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\System.Web.WebPages.Razor.dll
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\WebGrease.dll
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\EntityFramework.xml
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\EntityFramework.SqlServer.xml
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\System.Web.Helpers.xml
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\System.Web.Mvc.xml
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\System.Web.Optimization.xml
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\System.Web.Razor.xml
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\System.Web.WebPages.xml
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\System.Web.WebPages.Deployment.xml
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\System.Web.WebPages.Razor.xml
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\Newtonsoft.Json.xml
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\Antlr3.Runtime.pdb
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\Microsoft.Owin.xml
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\Microsoft.Owin.Security.xml
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\Microsoft.Owin.Security.Google.xml
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\obj\Debug\DemoDoAnLTCSDL.csproj.CoreCompileInputs.cache
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\obj\Debug\DemoDoAnLTCSDL.csproj.CopyComplete
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\obj\Debug\DemoDoAnLTCSDL.dll
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\obj\Debug\DemoDoAnLTCSDL.pdb
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\PagedList.dll
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\PagedList.Mvc.dll
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\PagedList.xml
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\PagedList.Mvc.xml
+D:\Debug\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\obj\Debug\DemoDoAnLTCSDL.csproj.AssemblyReference.cache
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\obj\Debug\DemoDoAnLTCSDL.csproj.AssemblyReference.cache
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\obj\Debug\DemoDoAnLTCSDL.csproj.CoreCompileInputs.cache
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\obj\Debug\DemoDoAnLTCSDL.dll
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\obj\Debug\DemoDoAnLTCSDL.pdb
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\DemoDoAnLTCSDL.dll.config
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\DemoDoAnLTCSDL.dll
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\DemoDoAnLTCSDL.pdb
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\csc.exe
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\csc.exe.config
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\csc.rsp
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\csi.exe
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\csi.exe.config
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\csi.rsp
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\System.AppContext.dll
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\System.Collections.Immutable.dll
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\System.Console.dll
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\System.Globalization.Calendars.dll
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\System.IO.Compression.dll
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\System.IO.FileSystem.dll
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\System.Net.Http.dll
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\System.Net.Sockets.dll
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\System.Reflection.Metadata.dll
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\System.ValueTuple.dll
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\System.Xml.XPath.dll
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\vbc.exe
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\vbc.exe.config
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\vbc.rsp
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\VBCSCompiler.exe
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\roslyn\VBCSCompiler.exe.config
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\Antlr3.Runtime.dll
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\EntityFramework.dll
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\EntityFramework.SqlServer.dll
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\Microsoft.Owin.dll
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\Microsoft.Owin.Security.dll
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\Microsoft.Owin.Security.Google.dll
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\Microsoft.Web.Infrastructure.dll
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\Newtonsoft.Json.dll
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\Owin.dll
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\PagedList.dll
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\PagedList.Mvc.dll
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\System.Web.Helpers.dll
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\System.Web.Mvc.dll
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\System.Web.Optimization.dll
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\System.Web.Razor.dll
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\System.Web.WebPages.Deployment.dll
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\System.Web.WebPages.dll
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\System.Web.WebPages.Razor.dll
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\WebGrease.dll
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\EntityFramework.xml
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\EntityFramework.SqlServer.xml
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\PagedList.xml
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\PagedList.Mvc.xml
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\System.Web.Helpers.xml
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\System.Web.Mvc.xml
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\System.Web.Optimization.xml
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\System.Web.Razor.xml
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\System.Web.WebPages.xml
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\System.Web.WebPages.Deployment.xml
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\System.Web.WebPages.Razor.xml
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\Newtonsoft.Json.xml
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\Antlr3.Runtime.pdb
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\Microsoft.Owin.xml
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\Microsoft.Owin.Security.xml
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\Microsoft.Owin.Security.Google.xml
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Tâm Như\học\LẬP TRÌNH CSDL\ĐỒ ÁN WEB BÁN ĐIỆN THOẠI\Đồ án LTCSDL\DemoDoAnLTCSDL\DemoDoAnLTCSDL\obj\Debug\DemoDoAnLTCSDL.csproj.CopyComplete

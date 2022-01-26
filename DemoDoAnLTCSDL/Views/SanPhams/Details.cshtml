@@ -1,0 +1,58 @@
+﻿@model DemoDoAnLTCSDL.Models.SanPham
+@using DemoDoAnLTCSDL.Models;
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Chi tiết sản phẩm</h2>
+
+<div>
+    <h4>Sản Phẩm</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Tên sản phẩm
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TenSP)
+        </dd>
+
+        <dt>
+            Đơn vị tính
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Donvitinh)
+        </dd>
+
+        <dt>
+            Đơn giá
+        </dt>
+
+        <dd>
+            @String.Format("{0:0,### đồng}", Model.Dongia)
+
+        </dd>
+
+        <dt>
+            Hình sản phẩm
+        </dt>
+
+        <dd>
+            @Html.Images("../../" + Model.HinhSP, "", "100", "120")
+        </dd>
+        <dt></dt>
+        <dd>
+            <br />
+            <a class="btn btn-info" href="@Url.Action("AddToCart","GioHang", new {MaSP = Model.MaSP })">
+                <span class="glyphicon glyphicon-shopping-cart"></span> Thêm vào giỏ
+            </a>
+            <a class="btn btn-info" href="@Url.Action("Index","Home", new {MaSP = Model.MaSP })">
+                Quay lại
+            </a>
+        </dd>
+    </dl>
+</div>
+

@@ -1,0 +1,79 @@
+﻿@model IEnumerable<DemoDoAnLTCSDL.Models.HoaDon>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Hóa đơn sản phẩm</h2>
+
+<p>
+    @Html.ActionLink("Thêm hóa đơn mới", "Create")
+</p>
+<table class="table table-dark table-striped">
+    <tr>
+        <th>
+            <center>
+                Mã hóa đơn
+            </center>
+        </th>
+        <th>
+            <center>
+                Ngày lập hóa đơn
+            </center>
+        </th>
+        <th>
+            <center>
+                Ngày giao hàng
+            </center>
+</th>
+        <th>
+            <center>
+                Tên khách hàng
+            </center>
+</th>
+        <th>
+            <center>
+                Họ nhân viên
+            </center>
+</th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+<tr>
+    <td>
+        <center>
+            <a href="@Url.Action("Index","CTHDs",new {mahd=item.MaHD })">
+                @Html.DisplayFor(modelItem => item.MaHD)
+            </a>
+        </center>
+    </td>
+    <td>
+        <center>
+            @Html.DisplayFor(modelItem => item.NgayLapHD)
+        </center>
+    </td>
+    <td>
+        <center>
+            @Html.DisplayFor(modelItem => item.NgayGiaoHang)
+        </center>
+    </td>
+    <td>
+        <center>
+            @Html.DisplayFor(modelItem => item.KhachHang.TenKH)
+        </center>
+    </td>
+    <td>
+        <center>
+            @Html.DisplayFor(modelItem => item.Nhanvien.HoNV)
+        </center>
+    </td>
+    <td>
+        @Html.ActionLink("Edit", "Edit", new { id = item.MaHD }) |
+        @Html.ActionLink("Details", "Details", new { id = item.MaHD }) |
+        @Html.ActionLink("Delete", "Delete", new { id = item.MaHD })
+    </td>
+</tr>
+}
+
+</table>

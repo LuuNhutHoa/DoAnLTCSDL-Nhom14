@@ -1,0 +1,49 @@
+﻿@model DemoDoAnLTCSDL.Models.HoaDon
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Thông tin chi tiết hóa đơn</h2>
+
+<div>Hóa đơn</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Ngày thành lập:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NgayLapHD)
+        </dd>
+
+        <dt>
+            Ngày giao hàng:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NgayGiaoHang)
+        </dd>
+
+        <dt>
+            Tên khách hàng:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.KhachHang.TenKH)
+        </dd>
+
+        <dt>
+            Họ khách hàng
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nhanvien.HoNV)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Chỉnh sửa", "Edit", new { id = Model.MaHD }) |
+    @Html.ActionLink("Trở về trang chủ", "Index")
+</p>

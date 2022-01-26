@@ -1,0 +1,64 @@
+﻿@model DemoDoAnLTCSDL.Models.KhachHang
+
+@{
+    ViewBag.Title = "Xóa";
+}
+
+<h2>Xóa thông tin khách hàng</h2>
+
+<h3>Bạn có muốn xóa thông tin khách hàng này??</h3>
+<div>
+    <h4>Thông tin khách hàng</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Tên khách hàng:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TenKH)
+        </dd>
+
+        <dt>
+            Địa chỉ:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DiaChi)
+        </dd>
+
+        <dt>
+            Số điện thoại:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DienThoai)
+        </dd>
+
+        <dt>
+            Fax:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Fax)
+        </dd>
+
+        <dt>
+            Email:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Xóa thông tin" class="btn btn-default" /> |
+            @Html.ActionLink("Trở về trang chủ", "Index")
+        </div>
+    }
+</div>
