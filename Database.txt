@@ -1,0 +1,349 @@
+CREATE TABLE [dbo].[CTHD](
+	[MaHD] [nvarchar](5) NOT NULL,
+	[MaSP] [nvarchar](4) NOT NULL,
+	[Soluong] [smallint] NULL,
+	[DongiaBan] [real] NULL,
+	[Giamgia] [real] NULL,
+ CONSTRAINT [PK_CTHD] PRIMARY KEY CLUSTERED 
+(
+	[MaHD] ASC,
+	[MaSP] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+/****** Object:  Table [dbo].[HoaDon]    Script Date: 17/02/2020 11:36:34 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[HoaDon](
+	[MaHD] [nvarchar](5) NOT NULL,
+	[MaKH] [nvarchar](4) NULL,
+	[MaNV] [int] NULL,
+	[NgayLapHD] [datetime] NOT NULL,
+	[NgayGiaoHang] [datetime] NOT NULL,
+ CONSTRAINT [PK_HoaDon] PRIMARY KEY CLUSTERED 
+(
+	[MaHD] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+/****** Object:  Table [dbo].[KhachHang]    Script Date: 17/02/2020 11:36:34 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[KhachHang](
+	[MaKH] [nvarchar](4) NOT NULL,
+	[TenKH] [nvarchar](30) NULL,
+	[DiaChi] [nvarchar](30) NULL,
+	[DienThoai] [nvarchar](7) NULL,
+	[Fax] [nvarchar](12) NULL,
+	[Email] [nvarchar](50) NULL,
+ CONSTRAINT [PK_KhachHang] PRIMARY KEY CLUSTERED 
+(
+	[MaKH] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+/****** Object:  Table [dbo].[LoaiSP]    Script Date: 17/02/2020 11:36:34 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[LoaiSP](
+	[MaLoaiSP] [int] NOT NULL,
+	[TenLoaiSP] [nvarchar](255) NULL,
+ CONSTRAINT [PK_LoaiSP] PRIMARY KEY CLUSTERED 
+(
+	[MaLoaiSP] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+/****** Object:  Table [dbo].[Nhanvien]    Script Date: 17/02/2020 11:36:34 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Nhanvien](
+	[MaNV] [int] IDENTITY(1,1) NOT NULL,
+	[HoNV] [nvarchar](50) NULL,
+	[Ten] [nvarchar](50) NULL,
+	[Diachi] [nvarchar](50) NULL,
+	[Dienthoai] [nvarchar](50) NULL,
+ CONSTRAINT [PK_Nhanvien] PRIMARY KEY CLUSTERED 
+(
+	[MaNV] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+/****** Object:  Table [dbo].[SanPham]    Script Date: 17/02/2020 11:36:34 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[SanPham](
+	[MaSP] [nvarchar](4) NOT NULL,
+	[TenSP] [nvarchar](20) NULL,
+	[Donvitinh] [nvarchar](8) NULL,
+	[Dongia] [float] NULL,
+	[MaLoaiSP] [int] NULL,
+	[HinhSP] [nvarchar](max) NULL,
+ CONSTRAINT [PK_SanPham] PRIMARY KEY CLUSTERED 
+(
+	[MaSP] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+
+GO
+INSERT [dbo].[CTHD] ([MaHD], [MaSP], [Soluong], [DongiaBan], [Giamgia]) VALUES (N'HD001', N'IP30', 1, 45990000, NULL)
+INSERT [dbo].[CTHD] ([MaHD], [MaSP], [Soluong], [DongiaBan], [Giamgia]) VALUES (N'HD001', N'OP05', 2, 11580000, NULL)
+INSERT [dbo].[CTHD] ([MaHD], [MaSP], [Soluong], [DongiaBan], [Giamgia]) VALUES (N'HD001', N'IP15', 1, 16990000, NULL)
+INSERT [dbo].[CTHD] ([MaHD], [MaSP], [Soluong], [DongiaBan], [Giamgia]) VALUES (N'HD001', N'XI07', 1, 16790000, NULL)
+INSERT [dbo].[CTHD] ([MaHD], [MaSP], [Soluong], [DongiaBan], [Giamgia]) VALUES (N'HD002', N'OP04', 2, 9980000, NULL)
+INSERT [dbo].[CTHD] ([MaHD], [MaSP], [Soluong], [DongiaBan], [Giamgia]) VALUES (N'HD002', N'IP08', 1, 9990000, NULL)
+INSERT [dbo].[CTHD] ([MaHD], [MaSP], [Soluong], [DongiaBan], [Giamgia]) VALUES (N'HD002', N'XI01', 2, 6380000, NULL)
+INSERT [dbo].[CTHD] ([MaHD], [MaSP], [Soluong], [DongiaBan], [Giamgia]) VALUES (N'HD003', N'IP01', 2, 6580000, NULL)
+INSERT [dbo].[CTHD] ([MaHD], [MaSP], [Soluong], [DongiaBan], [Giamgia]) VALUES (N'HD003', N'IP14', 1, 14990000, NULL)
+INSERT [dbo].[CTHD] ([MaHD], [MaSP], [Soluong], [DongiaBan], [Giamgia]) VALUES (N'HD003', N'OP03', 2, 9180000, NULL)
+INSERT [dbo].[CTHD] ([MaHD], [MaSP], [Soluong], [DongiaBan], [Giamgia]) VALUES (N'HD003', N'XI09', 2, 16158000, NULL)
+INSERT [dbo].[CTHD] ([MaHD], [MaSP], [Soluong], [DongiaBan], [Giamgia]) VALUES (N'HD004', N'IP29', 1, 32990000, NULL)
+INSERT [dbo].[CTHD] ([MaHD], [MaSP], [Soluong], [DongiaBan], [Giamgia]) VALUES (N'HD004', N'IP20', 1, 30990000, NULL)
+INSERT [dbo].[CTHD] ([MaHD], [MaSP], [Soluong], [DongiaBan], [Giamgia]) VALUES (N'HD005', N'IP13', 1, 16790000, NULL)
+INSERT [dbo].[CTHD] ([MaHD], [MaSP], [Soluong], [DongiaBan], [Giamgia]) VALUES (N'HD005', N'OP06', 2, 11980000, NULL)
+INSERT [dbo].[CTHD] ([MaHD], [MaSP], [Soluong], [DongiaBan], [Giamgia]) VALUES (N'HD005', N'OP08', 1, 8590000, NULL)
+INSERT [dbo].[CTHD] ([MaHD], [MaSP], [Soluong], [DongiaBan], [Giamgia]) VALUES (N'HD006', N'XI10', 1, 13579000, NULL)
+INSERT [dbo].[CTHD] ([MaHD], [MaSP], [Soluong], [DongiaBan], [Giamgia]) VALUES (N'HD006', N'IP01', 2, 6580000, NULL)
+INSERT [dbo].[CTHD] ([MaHD], [MaSP], [Soluong], [DongiaBan], [Giamgia]) VALUES (N'HD006', N'OP01', 1, 3290000, NULL)
+INSERT [dbo].[CTHD] ([MaHD], [MaSP], [Soluong], [DongiaBan], [Giamgia]) VALUES (N'HD007', N'SS03', 1, 3790000, NULL)
+INSERT [dbo].[CTHD] ([MaHD], [MaSP], [Soluong], [DongiaBan], [Giamgia]) VALUES (N'HD007', N'HU10', 1, 6990000, NULL)
+INSERT [dbo].[CTHD] ([MaHD], [MaSP], [Soluong], [DongiaBan], [Giamgia]) VALUES (N'HD007', N'SS04', 1, 4790000, NULL)
+INSERT [dbo].[CTHD] ([MaHD], [MaSP], [Soluong], [DongiaBan], [Giamgia]) VALUES (N'HD007', N'VI07', 1, 4990000, NULL)
+INSERT [dbo].[CTHD] ([MaHD], [MaSP], [Soluong], [DongiaBan], [Giamgia]) VALUES (N'HD008', N'SS09', 1, 8990000, NULL)
+INSERT [dbo].[CTHD] ([MaHD], [MaSP], [Soluong], [DongiaBan], [Giamgia]) VALUES (N'HD008', N'SS30', 2, 3679000, NULL)
+INSERT [dbo].[CTHD] ([MaHD], [MaSP], [Soluong], [DongiaBan], [Giamgia]) VALUES (N'HD008', N'HU06', 1, 11990000, NULL)
+INSERT [dbo].[CTHD] ([MaHD], [MaSP], [Soluong], [DongiaBan], [Giamgia]) VALUES (N'HD009', N'HU07', 2, 16990000, NULL)
+INSERT [dbo].[CTHD] ([MaHD], [MaSP], [Soluong], [DongiaBan], [Giamgia]) VALUES (N'HD009', N'VI01', 2, 2490000, NULL)
+INSERT [dbo].[CTHD] ([MaHD], [MaSP], [Soluong], [DongiaBan], [Giamgia]) VALUES (N'HD009', N'SS29', 1, 3390000, NULL)
+INSERT [dbo].[CTHD] ([MaHD], [MaSP], [Soluong], [DongiaBan], [Giamgia]) VALUES (N'HD010', N'SS15', 2, 33990000, NULL)
+INSERT [dbo].[CTHD] ([MaHD], [MaSP], [Soluong], [DongiaBan], [Giamgia]) VALUES (N'HD010', N'VI04', 1, 2990000, NULL)
+INSERT [dbo].[CTHD] ([MaHD], [MaSP], [Soluong], [DongiaBan], [Giamgia]) VALUES (N'HD010', N'HU03', 2, 5390000, NULL)
+INSERT [dbo].[CTHD] ([MaHD], [MaSP], [Soluong], [DongiaBan], [Giamgia]) VALUES (N'HD011', N'VI02', 1, 2690000, NULL)
+INSERT [dbo].[CTHD] ([MaHD], [MaSP], [Soluong], [DongiaBan], [Giamgia]) VALUES (N'HD011', N'VI06', 1, 3590000, NULL)
+INSERT [dbo].[CTHD] ([MaHD], [MaSP], [Soluong], [DongiaBan], [Giamgia]) VALUES (N'HD011', N'SS17', 3, 779000, NULL)
+INSERT [dbo].[CTHD] ([MaHD], [MaSP], [Soluong], [DongiaBan], [Giamgia]) VALUES (N'HD011', N'SS27', 1, 3290000, NULL)
+INSERT [dbo].[CTHD] ([MaHD], [MaSP], [Soluong], [DongiaBan], [Giamgia]) VALUES (N'HD012', N'SS23', 1, 12979000, NULL)
+INSERT [dbo].[CTHD] ([MaHD], [MaSP], [Soluong], [DongiaBan], [Giamgia]) VALUES (N'HD012', N'HU09', 2, 22990000, NULL)
+INSERT [dbo].[CTHD] ([MaHD], [MaSP], [Soluong], [DongiaBan], [Giamgia]) VALUES (N'HD012', N'VI03', 1, 2790000, NULL)
+
+INSERT [dbo].[HoaDon] ([MaHD], [MaKH], [MaNV], [NgayLapHD], [NgayGiaoHang]) VALUES (N'HD001', N'KH01', 4, CAST(N'2000-02-26 00:00:00.000' AS DateTime), CAST(N'2000-07-02 00:00:00.000' AS DateTime))
+INSERT [dbo].[HoaDon] ([MaHD], [MaKH], [MaNV], [NgayLapHD], [NgayGiaoHang]) VALUES (N'HD002', N'KH08', 7, CAST(N'2001-12-15 00:00:00.000' AS DateTime), CAST(N'2001-12-15 00:00:00.000' AS DateTime))
+INSERT [dbo].[HoaDon] ([MaHD], [MaKH], [MaNV], [NgayLapHD], [NgayGiaoHang]) VALUES (N'HD003', N'KH10', 8, CAST(N'2001-02-02 00:00:00.000' AS DateTime), CAST(N'2001-12-12 00:00:00.000' AS DateTime))
+INSERT [dbo].[HoaDon] ([MaHD], [MaKH], [MaNV], [NgayLapHD], [NgayGiaoHang]) VALUES (N'HD004', N'KH09', 7, CAST(N'2000-08-04 00:00:00.000' AS DateTime), CAST(N'2000-08-06 00:00:00.000' AS DateTime))
+INSERT [dbo].[HoaDon] ([MaHD], [MaKH], [MaNV], [NgayLapHD], [NgayGiaoHang]) VALUES (N'HD005', N'KH05', 1, CAST(N'2000-08-05 00:00:00.000' AS DateTime), CAST(N'2000-08-10 00:00:00.000' AS DateTime))
+INSERT [dbo].[HoaDon] ([MaHD], [MaKH], [MaNV], [NgayLapHD], [NgayGiaoHang]) VALUES (N'HD006', N'KH03', 15, CAST(N'2003-12-15 00:00:00.000' AS DateTime), CAST(N'2003-12-16 00:00:00.000' AS DateTime))
+INSERT [dbo].[HoaDon] ([MaHD], [MaKH], [MaNV], [NgayLapHD], [NgayGiaoHang]) VALUES (N'HD007', N'KH10', 12, CAST(N'2002-04-04 00:00:00.000' AS DateTime), CAST(N'2002-04-15 00:00:00.000' AS DateTime))
+INSERT [dbo].[HoaDon] ([MaHD], [MaKH], [MaNV], [NgayLapHD], [NgayGiaoHang]) VALUES (N'HD008', N'KH09', 1, CAST(N'2000-10-21 00:00:00.000' AS DateTime), CAST(N'2000-10-30 00:00:00.000' AS DateTime))
+INSERT [dbo].[HoaDon] ([MaHD], [MaKH], [MaNV], [NgayLapHD], [NgayGiaoHang]) VALUES (N'HD009', N'KH06', 10, CAST(N'2002-06-06 00:00:00.000' AS DateTime), CAST(N'2002-12-06 00:00:00.000' AS DateTime))
+INSERT [dbo].[HoaDon] ([MaHD], [MaKH], [MaNV], [NgayLapHD], [NgayGiaoHang]) VALUES (N'HD010', N'KH04', 9, CAST(N'2001-08-08 00:00:00.000' AS DateTime), CAST(N'2001-12-08 00:00:00.000' AS DateTime))
+INSERT [dbo].[HoaDon] ([MaHD], [MaKH], [MaNV], [NgayLapHD], [NgayGiaoHang]) VALUES (N'HD011', N'KH03', 3, CAST(N'2001-02-16 00:00:00.000' AS DateTime), CAST(N'2001-03-12 00:00:00.000' AS DateTime))
+INSERT [dbo].[HoaDon] ([MaHD], [MaKH], [MaNV], [NgayLapHD], [NgayGiaoHang]) VALUES (N'HD012', N'KH08', 4, CAST(N'2002-09-09 00:00:00.000' AS DateTime), CAST(N'2002-12-09 00:00:00.000' AS DateTime))
+
+INSERT [dbo].[KhachHang] ([MaKH], [TenKH], [DiaChi], [DienThoai], [Fax], [Email]) VALUES (N'KH01', N'Anh Hang', N'120 Ha Ton Quyen', N'8171717', N'084088171717', N'hang@gmail.com')
+INSERT [dbo].[KhachHang] ([MaKH], [TenKH], [DiaChi], [DienThoai], [Fax], [Email]) VALUES (N'KH02', N'Bong Hong', N'24 Ky Con', N'', N'084088800256', NULL)
+INSERT [dbo].[KhachHang] ([MaKH], [TenKH], [DiaChi], [DienThoai], [Fax], [Email]) VALUES (N'KH03', N'Em Anh', N'6 Ky Hoa', N'', N'084088852258', NULL)
+INSERT [dbo].[KhachHang] ([MaKH], [TenKH], [DiaChi], [DienThoai], [Fax], [Email]) VALUES (N'KH04', N'Ho Han', N'8 Pham van Khoe', N'8430156', N'084088430156', NULL)
+INSERT [dbo].[KhachHang] ([MaKH], [TenKH], [DiaChi], [DienThoai], [Fax], [Email]) VALUES (N'KH05', N'Koko Company', N'90 An Duong Vuong', N'8250102', N'', NULL)
+INSERT [dbo].[KhachHang] ([MaKH], [TenKH], [DiaChi], [DienThoai], [Fax], [Email]) VALUES (N'KH06', N'Queen Cozinha', N'891 An Duong Vuong', N'', N'', NULL)
+INSERT [dbo].[KhachHang] ([MaKH], [TenKH], [DiaChi], [DienThoai], [Fax], [Email]) VALUES (N'KH07', N'Quoc Cuong', N'10 Tan Da', N'8950203', N'', NULL)
+INSERT [dbo].[KhachHang] ([MaKH], [TenKH], [DiaChi], [DienThoai], [Fax], [Email]) VALUES (N'KH08', N'Suoi Tra', N'2817 Minh Phung', N'8356210', N'084088356210', NULL)
+INSERT [dbo].[KhachHang] ([MaKH], [TenKH], [DiaChi], [DienThoai], [Fax], [Email]) VALUES (N'KH09', N'Song Trang', N'187 Lao Tu', N'9450210', N'', NULL)
+INSERT [dbo].[KhachHang] ([MaKH], [TenKH], [DiaChi], [DienThoai], [Fax], [Email]) VALUES (N'KH10', N'Vinh Vien', N'45 Su Van hanh', N'', N'084088654790', NULL)
+INSERT [dbo].[KhachHang] ([MaKH], [TenKH], [DiaChi], [DienThoai], [Fax], [Email]) VALUES (N'KH11', N'TRần Vĩnh Viễn', N'87 Trần Hưng Đạo', N'8855464', N'', NULL)
+INSERT [dbo].[KhachHang] ([MaKH], [TenKH], [DiaChi], [DienThoai], [Fax], [Email]) VALUES (N'KH12', N'Lý Văn Trung', N'123 Tân Tẩn', N'', N'', NULL)
+INSERT [dbo].[KhachHang] ([MaKH], [TenKH], [DiaChi], [DienThoai], [Fax], [Email]) VALUES (N'KH13', N'Cty Minh Hằng', N'456 Công Hòa', N'', N'', NULL)
+INSERT [dbo].[KhachHang] ([MaKH], [TenKH], [DiaChi], [DienThoai], [Fax], [Email]) VALUES (N'KH14', N'Cty Nghĩa Đường', N'12 Lý chính Thắng', N'9874564', N'', NULL)
+INSERT [dbo].[KhachHang] ([MaKH], [TenKH], [DiaChi], [DienThoai], [Fax], [Email]) VALUES (N'KH15', N'Minh Anh', N'15/1 Hậu Giang', N'6548797', N'', NULL)
+INSERT [dbo].[KhachHang] ([MaKH], [TenKH], [DiaChi], [DienThoai], [Fax], [Email]) VALUES (N'KH16', N'Trần Tùng', N'12/15 Hậu Nghĩa', N'6547898', N'', NULL)
+INSERT [dbo].[KhachHang] ([MaKH], [TenKH], [DiaChi], [DienThoai], [Fax], [Email]) VALUES (N'KH17', N'Cty Vĩnh Lợi', N'1812 TRần Quang Khải', N'', N'', NULL)
+INSERT [dbo].[KhachHang] ([MaKH], [TenKH], [DiaChi], [DienThoai], [Fax], [Email]) VALUES (N'KH18', N'Cty Thái Bình Dương', N'145 Nguyễn Huệ', N'6548797', N'', NULL)
+INSERT [dbo].[KhachHang] ([MaKH], [TenKH], [DiaChi], [DienThoai], [Fax], [Email]) VALUES (N'KH19', N'Cty Thần Tài', N'14 Lê Lợi', N'6523154', N'', NULL)
+INSERT [dbo].[KhachHang] ([MaKH], [TenKH], [DiaChi], [DienThoai], [Fax], [Email]) VALUES (N'KH20', N'Cty Trần Văn Thời', N'45 Nguyễn Thị Minh Khai', N'4561234', N'', NULL)
+INSERT [dbo].[KhachHang] ([MaKH], [TenKH], [DiaChi], [DienThoai], [Fax], [Email]) VALUES (N'KH21', N'Công ty Thành Lợi', N'Q1 TP.HCM', N'0913123', N'0913123456', N'hung@gmail.com')
+INSERT [dbo].[KhachHang] ([MaKH], [TenKH], [DiaChi], [DienThoai], [Fax], [Email]) VALUES (N'KH22', N'Trần Hùng', N'Công ty TNHH Thành Lợi', N'0913123', N'0913123456', N'hung@gmail.com')
+INSERT [dbo].[KhachHang] ([MaKH], [TenKH], [DiaChi], [DienThoai], [Fax], [Email]) VALUES (N'KH23', N'aaa', N'aaa', N'0913123', N'0913123456', N'hung@gmail.com')
+
+INSERT [dbo].[LoaiSP] ([MaLoaiSP], [TenLoaiSP]) VALUES (1, N'iPhone')
+INSERT [dbo].[LoaiSP] ([MaLoaiSP], [TenLoaiSP]) VALUES (2, N'Samsung')
+INSERT [dbo].[LoaiSP] ([MaLoaiSP], [TenLoaiSP]) VALUES (3, N'Oppo')
+INSERT [dbo].[LoaiSP] ([MaLoaiSP], [TenLoaiSP]) VALUES (4, N'Xiaomi')
+INSERT [dbo].[LoaiSP] ([MaLoaiSP], [TenLoaiSP]) VALUES (5, N'Huawei')
+INSERT [dbo].[LoaiSP] ([MaLoaiSP], [TenLoaiSP]) VALUES (6, N'Vivo')
+SET IDENTITY_INSERT [dbo].[Nhanvien] ON 
+
+INSERT [dbo].[Nhanvien] ([MaNV], [HoNV], [Ten], [Diachi], [Dienthoai]) VALUES (1, N'Lê văn', N'Tâm', N'45 Trần Phú', N'8663447')
+INSERT [dbo].[Nhanvien] ([MaNV], [HoNV], [Ten], [Diachi], [Dienthoai]) VALUES (2, N'Trần thị', N'An', N'15 Nguyễn Trãi', N'')
+INSERT [dbo].[Nhanvien] ([MaNV], [HoNV], [Ten], [Diachi], [Dienthoai]) VALUES (3, N'Tạ Thành', N'Tâm', N'20 Võ thị Sáu', N'8565666')
+INSERT [dbo].[Nhanvien] ([MaNV], [HoNV], [Ten], [Diachi], [Dienthoai]) VALUES (4, N'Ngô Thành', N'Sơn', N'122 Trần Phú', N'')
+INSERT [dbo].[Nhanvien] ([MaNV], [HoNV], [Ten], [Diachi], [Dienthoai]) VALUES (5, N'Lê thị', N'Thuỷ', N'25 Ngô Quyền', N'9767677')
+INSERT [dbo].[Nhanvien] ([MaNV], [HoNV], [Ten], [Diachi], [Dienthoai]) VALUES (6, N'Nguyễn Hữu', N'An', N'12 Lê Thánh Tôn', N'')
+INSERT [dbo].[Nhanvien] ([MaNV], [HoNV], [Ten], [Diachi], [Dienthoai]) VALUES (7, N'Thái Chí', N'An', N'97 Võ văn Tần', N'')
+INSERT [dbo].[Nhanvien] ([MaNV], [HoNV], [Ten], [Diachi], [Dienthoai]) VALUES (8, N'Trần Văn', N'Thanh', N'25 Trần Văn Đang', N'0918158')
+INSERT [dbo].[Nhanvien] ([MaNV], [HoNV], [Ten], [Diachi], [Dienthoai]) VALUES (9, N'Nguyễn Dũng', N'Nghi', N'65 Trần Văn Thời', N'')
+INSERT [dbo].[Nhanvien] ([MaNV], [HoNV], [Ten], [Diachi], [Dienthoai]) VALUES (10, N'Lê Thế', N'Bảo', N'12 Lê Quý Đôn', N'')
+INSERT [dbo].[Nhanvien] ([MaNV], [HoNV], [Ten], [Diachi], [Dienthoai]) VALUES (11, N'Lê Dũng', N'Nguyễn', N'321 Lê Lợi', N'6987456')
+INSERT [dbo].[Nhanvien] ([MaNV], [HoNV], [Ten], [Diachi], [Dienthoai]) VALUES (12, N'Nguyễn Thị', N'Thủy', N'654 Nguyễn Huệ', N'9998745')
+INSERT [dbo].[Nhanvien] ([MaNV], [HoNV], [Ten], [Diachi], [Dienthoai]) VALUES (13, N'Nguyễn Thu', N'Hồng', N'987 Lê Lợi', N'9874561')
+INSERT [dbo].[Nhanvien] ([MaNV], [HoNV], [Ten], [Diachi], [Dienthoai]) VALUES (14, N'Trần Thị Thủy', N'Tiên', N'6543 Nguyễn Huệ', N'')
+INSERT [dbo].[Nhanvien] ([MaNV], [HoNV], [Ten], [Diachi], [Dienthoai]) VALUES (15, N'Lê Thị', N'Hiền', N'654 Mai Xuân Thời', N'')
+INSERT [dbo].[Nhanvien] ([MaNV], [HoNV], [Ten], [Diachi], [Dienthoai]) VALUES (16, N'Trần Văn', N'Thanh', N'Tân Bình', N'123456')
+INSERT [dbo].[Nhanvien] ([MaNV], [HoNV], [Ten], [Diachi], [Dienthoai]) VALUES (17, N'Trần Văn', N'Thành', N'Tân Bình', N'12345')
+SET IDENTITY_INSERT [dbo].[Nhanvien] OFF
+
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'IP01', N'iPhone 6S 64GB', N'Cái', 3290000, 1, N'images/IP01.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'IP02', N'iPhone 6 Plus 64GB', N'Cái', 3590000, 1, N'images/IP02.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'IP03', N'iPhone 7 Plus 128GB', N'Cái', 5990000, 1, N'images/IP03.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'IP04', N'iPhone 8 64GB', N'Cái', 4990000, 1, N'images/IP04.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'IP05', N'iPhone 8 Plus 64GB', N'Cái', 7490000, 1, N'images/IP05.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'IP06', N'iPhone X 256GB', N'Cái', 8990000, 1, N'images/IP06.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'IP07', N'iPhone Xs 64GB', N'Cái', 9390000, 1, N'images/IP07.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'IP08', N'iPhone Xs 256GB', N'Cái', 9990000, 1, N'images/IP08.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'IP09', N'iPhone Xs Max 64GB', N'Cái', 11790000, 1, N'images/IP09.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'IP10', N'iPhone Xs Max 256GB', N'Cái', 12590000, 1, N'images/IP10.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'IP11', N'iPhone SE 2020 128GB', N'Cái', 7990000, 1, N'images/IP11.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'IP12', N'iPhone 11 64GB', N'Cái', 12390000, 1, N'images/IP12.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'IP13', N'iPhone 11 256GB', N'Cái', 16790000, 1, N'images/IP13.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'IP14', N'iPhone 11 Pro 64GB', N'Cái', 14990000, 1, N'images/IP14.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'IP15', N'iPhone 11 Pro 256GB', N'Cái', 16990000, 1, N'images/IP15.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'IP16', N'iPhone 11 Pro Max 64GB', N'Cái', 17190000, 1, N'images/IP16.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'IP17', N'iPhone 11 Pro Max 256GB', N'Cái', 18590000, 1, N'images/IP17.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'IP18', N'iPhone 12 64GB', N'Cái', 18990000, 1, N'images/IP18.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'IP19', N'iPhone 12 128GB', N'Cái', 20490000, 1, N'images/IP19.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'IP20', N'iPhone 12 Pro 512GB', N'Cái', 30990000, 1, N'images/IP20.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'IP21', N'iPhone 12 Pro Max 128GB', N'Cái', 25990000, 1, N'images/IP21.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'IP22', N'iPhone 12 Pro Max 256GB', N'Cái', 31990000, 1, N'images/IP22.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'IP23', N'iPhone 13 128GB', N'Cái', 22390000, 1, N'images/IP23.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'IP24', N'iPhone 13 256GB', N'Cái', 24490000, 1, N'images/IP24.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'IP25', N'iPhone 13 mini 128GB', N'Cái', 18590000, 1, N'images/IP25.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'IP26', N'iPhone 13 Pro 256GB', N'Cái', 31490000, 1, N'images/IP26.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'IP27', N'iPhone 13 Pro 512GB', N'Cái', 33990000, 1, N'images/IP27.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'IP28', N'iPhone 13 Pro Max 128GB', N'Cái', 31990000, 1, N'images/IP28.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'IP29', N'iPhone 13 Pro Max 256GB', N'Cái', 32990000, 1, N'images/IP29.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'IP30', N'iPhone 13 Pro Max 1TB', N'Cái', 45990000, 1, N'images/IP30.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'SS01', N'Samsung Galaxy A01', N'Cái', 1590000, 2, N'images/SS01.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'SS02', N'Samsung Galaxy A12', N'Cái', 2790000, 2, N'images/SS02.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'SS03', N'Samsung Galaxy A12 plus', N'Cái', 3790000, 2, N'images/SS03.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'SS04', N'Samsung Galaxy A22', N'Cái', 4790000, 2, N'images/SS04.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'SS05', N'Samsung Galaxy A32', N'Cái', 5390000, 2, N'Images/SS05.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'SS06', N'Samsung Galaxy S10', N'Cái', 6790000, 2, N'images/SS06.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'SS07', N'Samsung Galaxy A52', N'Cái', 7790000, 2, N'images/SS07.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'SS08', N'Samsung Galaxy Note 10', N'Cái', 8790000, 2, N'images/SS08.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'SS09', N'Samsung Galaxy A52s', N'Cái', 8990000, 2, N'images/SS09.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'SS10', N'Samsung Galaxy Note 10 Plus',N'Cái', 9790000, 2, N'images/SS10.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'SS11', N'Samsung Galaxy S20 FE', N'Cái', 12490000, 2, N'images/SS11.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'SS12', N'Samsung Galaxy S21 Plus', N'Cái', 15890000, 2, N'Images/SS12.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'SS13', N'Samsung Galaxy S21 Ultra', N'Cái', 18390000, 2, N'images/SS13.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'SS14', N'Samsung Galaxy Z Flip3', N'Cái', 22590000, 2, N'images/SS14.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'SS15', N'Samsung Galaxy Z Fold2', N'Cái', 33990000, 2, N'images/SS15.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'SS16', N'Samsung Galaxy Z Fold3', N'Cái', 33990000, 2, N'images/SS16.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'SS17', N'Samsung Galaxy S4 Docomo SC-04E ',N'Cái', 779000, 2, N'images/SS17.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'SS18', N'Samsung Galaxy S9 Plus SM-G965F', N'Cái', 5990000, 2, N'Images/SS18.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'SS19', N'Samsung Galaxy S8 Plus', N'Cái', 5990000, 2, N'images/SS19.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'SS20', N'Samsung Galaxy M31', N'Cái', 1490000, 2, N'images/SS20.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'SS21', N'Samsung Galaxy S5 G900V', N'Cái', 1379000, 2, N'Images/SS21.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'SS22', N'Samsung Galaxy S8 SM-G950N', N'Cái', 12979000, 2, N'Images/SS22.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'SS23', N'Samsung Galaxy S9 Plus', N'Cái', 12979000, 2, N'images/SS23.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'SS24', N'Samsung Galaxy A02s', N'Cái', 2890000, 2, N'images/SS24.png') 
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'SS25', N'Samsung Galaxy J3 Pro SM-J3110', N'Cái', 2890000, 2, N'images/SS25.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'SS26', N'Samsung Galaxy S6 Edge SM-G925', N'Cái', 2990000, 2, N'Images/SS26.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'SS27', N'Samsung Galaxy J2 Pro', N'Cái', 3290000, 2, N'Images/SS27.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'SS28', N'Samsung Galaxy J4 Plus', N'Cái', 2890000, 2, N'images/SS28.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'SS29', N'Samsung Galaxy S7 SM-G9300', N'Cái', 3390000, 2, N'images/SS29.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'SS30', N'Samsung Galaxy S6 SM-G920', N'Cái', 3679000, 2, N'images/SS30.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'OP01', N'OPPO A16K', N'Cái', 3290000, 3, N'images/OP01.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'OP02', N'OPPO A15S', N'Cái', 3990000, 3, N'images/OP02.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'OP03', N'OPPO A55', N'Cái', 4590000, 3, N'images/OP03.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'OP04', N'OPPO A93', N'Cái', 4990000, 3, N'images/OP04.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'OP05', N'OPPO Reno4', N'Cái', 5790000, 3, N'images/OP05.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'OP06', N'OPPO A74', N'Cái', 5990000, 3, N'images/OP06.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'OP07', N'OPPO A95', N'Cái', 6390000, 3, N'images/OP07.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'OP08', N'OPPO Reno6 Z', N'Cái', 8590000, 3, N'images/OP08.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'OP09', N'OPPO Reno6', N'Cái', 11990000, 3, N'images/OP09.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'OP10', N'OPPO Find X3 Pro', N'Cái', 16590000, 3, N'images/OP10.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'XI01', N'Xiaomi Redmi 9C', N'Cái', 3190000, 4, N'images/XI01.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'XI02', N'Xiaomi Redmi Note 10s', N'Cái', 5990000, 4, N'images/XI02.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'XI03', N'Xiaomi Mi Note 10 Lite', N'Cái', 7690000, 4, N'images/XI03.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'XI04', N'Xiaomi 11 Lite 5G NE', N'Cái', 8390000, 4, N'images/XI04.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'XI05', N'Xiaomi 11T', N'Cái', 9990000, 4, N'images/XI05.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'XI06', N'Xiaomi Mi 11T Pro', N'Cái', 13090000, 4, N'images/XI06.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'XI07', N'Xiaomi Mi 10 Pro', N'Cái', 16790000, 4, N'images/XI07.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'XI08', N'Xiaomi Redmi 10X Pro', N'Cái', 6990000, 4, N'images/XI08.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'XI09', N'Xiaomi Mi 9', N'Cái', 8079000, 4, N'images/XI09.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'XI10', N'Xiaomi Mi Mix 3', N'Cái', 13579000, 4, N'images/XI10.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'HU01', N'Huawei Y7 Pro 2019', N'Cái', 3090000, 5, N'Images/HU01.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'HU02', N'Huawei Nova 3i', N'Cái', 4390000, 5, N'Images/HU02.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'HU03', N'Huawei P30 Lite', N'Cái', 5390000, 5, N'images/HU03.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'HU04', N'Huawei Nova 2i', N'Cái', 5490000, 5, N'images/HU04.png') 
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'HU05', N'Huawei Nova 3e', N'Cái', 5890000, 5, N'images/HU05.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'HU06', N'Huawei Nova 3', N'Cái', 11990000, 5, N'Images/HU06.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'HU07', N'Huawei P30', N'Cái', 16990000, 5, N'Images/HU07.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'HU08', N'Huawei P20 Pro', N'Cái', 19990000, 5, N'images/HU08.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'HU09', N'Huawei P30 Pro',N'Cái', 22990000, 5, N'images/HU09.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'HU10', N'Huawei Nova 3e Hồng', N'Cái', 6990000, 5, N'images/HU10.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'VI01', N'Vivo V3 Max',N'Cái', 2490000, 6, N'Images/VI01.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'VI02', N'Vivo Y93', N'Cái', 2690000, 6, N'Images/VI02.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'VI03', N'Vivo Y91C',N'Cái', 2790000, 6, N'images/VI03.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'VI04', N'Vivo Y12',N'Cái', 2990000, 6, N'images/VI04.png') 
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'VI05', N'Vivo Y91', N'Cái', 3590000,6, N'images/VI05.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'VI06', N'Vivo Y91i',N'Cái', 3590000,6, N'Images/VI06.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'VI07', N'Vivo Y81',N'Cái', 4990000,6, N'Images/VI07.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'VI08', N'Vivo S1',N'Cái', 5590000,6, N'images/VI08.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'VI09', N'Vivo Y85',N'Cái', 5590000,6, N'images/VI09.png')
+INSERT [dbo].[SanPham] ([MaSP], [TenSP], [Donvitinh], [Dongia], [MaLoaiSP], [HinhSP]) VALUES (N'VI10', N'Vivo V7 Plus', N'Cái', 7990000,6, N'images/VI10.png')
+
+ALTER TABLE [dbo].[CTHD]  WITH CHECK ADD  CONSTRAINT [FK_CTHD_HoaDon] FOREIGN KEY([MaHD])
+REFERENCES [dbo].[HoaDon] ([MaHD])
+ON UPDATE CASCADE
+ON DELETE CASCADE
+GO
+ALTER TABLE [dbo].[CTHD] CHECK CONSTRAINT [FK_CTHD_HoaDon]
+GO
+ALTER TABLE [dbo].[CTHD]  WITH CHECK ADD  CONSTRAINT [FK_CTHD_SanPham] FOREIGN KEY([MaSP])
+REFERENCES [dbo].[SanPham] ([MaSP])
+ON UPDATE CASCADE
+ON DELETE CASCADE
+GO
+ALTER TABLE [dbo].[CTHD] CHECK CONSTRAINT [FK_CTHD_SanPham]
+GO
+ALTER TABLE [dbo].[HoaDon]  WITH CHECK ADD  CONSTRAINT [FK_HoaDon_KhachHang] FOREIGN KEY([MaKH])
+REFERENCES [dbo].[KhachHang] ([MaKH])
+ON UPDATE CASCADE
+ON DELETE CASCADE
+GO
+ALTER TABLE [dbo].[HoaDon] CHECK CONSTRAINT [FK_HoaDon_KhachHang]
+GO
+ALTER TABLE [dbo].[HoaDon]  WITH CHECK ADD  CONSTRAINT [FK_HoaDon_Nhanvien] FOREIGN KEY([MaNV])
+REFERENCES [dbo].[Nhanvien] ([MaNV])
+ON UPDATE CASCADE
+ON DELETE CASCADE
+GO
+ALTER TABLE [dbo].[HoaDon] CHECK CONSTRAINT [FK_HoaDon_Nhanvien]
+GO
+ALTER TABLE [dbo].[SanPham]  WITH CHECK ADD  CONSTRAINT [FK_SanPham_LoaiSP] FOREIGN KEY([MaLoaiSP])
+REFERENCES [dbo].[LoaiSP] ([MaLoaiSP])
+ON UPDATE CASCADE
+ON DELETE CASCADE
+GO
+ALTER TABLE [dbo].[SanPham] CHECK CONSTRAINT [FK_SanPham_LoaiSP]
+GO
+USE [master]
+GO
+ALTER DATABASE [qlbanhang] SET  READ_WRITE 
+GO
+
+

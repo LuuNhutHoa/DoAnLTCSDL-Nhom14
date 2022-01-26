@@ -1,0 +1,1 @@
+Để có thể chạy được Web phải add database vào máy và sửa lại database trong visual nha ^^
